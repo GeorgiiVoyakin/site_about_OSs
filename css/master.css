@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: #04376C;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidenav {
+  background-color: #93B5E3;
+  padding: 10px;
+  min-width: 280px;
+  min-height: 100vh;
+}
+
+.sidenav a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
